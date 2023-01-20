@@ -46,4 +46,17 @@ class LocationsViewModel: ObservableObject {
             showLocationsList = false
         }
     }
+    
+    func showNextLocation() {
+        guard let indexOfCurrentLocation = locations.firstIndex(of: mapLocation) else {
+            return
+        }
+        let nextIndexLocation = indexOfCurrentLocation + 1
+        if !locations.indices.contains(nextIndexLocation), let firstLocation = locations.first  {
+            showNextLocation(location: firstLocation)
+            return
+        }
+        let nextLocation = locations[nextIndexLocation]
+        showNextLocation(location: nextLocation)
+    }
 }

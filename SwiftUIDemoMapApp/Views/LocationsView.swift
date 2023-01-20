@@ -19,8 +19,22 @@ struct LocationsView: View {
             
             VStack(spacing: 0, content: {
                 header
-                .padding()
+                    .padding()
+                
                 Spacer()
+                
+                ZStack {
+                    ForEach(vm.locations) { location in
+                        if vm.mapLocation == location {
+                            LocationPreviewView(location: location)
+                                .shadow(color: .black.opacity(0.3), radius: 20)
+                                .padding()
+                                .transition(.asymmetric(
+                                    insertion: .move(edge: .trailing),
+                                    removal: .move(edge: .leading)))
+                        }
+                    }
+                }
             })
         }
     }
@@ -52,7 +66,7 @@ extension LocationsView {
                             .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
                     }
             }
-
+            
             if vm.showLocationsList {
                 LocationsListView()
             }
