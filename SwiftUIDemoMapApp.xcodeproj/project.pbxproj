@@ -18,6 +18,7 @@
 		19864ECF2970DC2A005368E8 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19864ECE2970DC2A005368E8 /* LocationsViewModel.swift */; };
 		198F7424297AE7500058471E /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F7423297AE7500058471E /* LocationPreviewView.swift */; };
 		1995EAB8296F3999000D5E2C /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995EAB7296F3999000D5E2C /* LocationsView.swift */; };
+		199A3747297EE5B0002295F5 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A3746297EE5B0002295F5 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		19864ECE2970DC2A005368E8 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		198F7423297AE7500058471E /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		1995EAB7296F3999000D5E2C /* LocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		199A3746297EE5B0002295F5 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1917F20929785BC100159686 /* LocationsListView.swift */,
 				198F7423297AE7500058471E /* LocationPreviewView.swift */,
 				1928D115297B89D90050EAF0 /* LocationMapAnnotationView.swift */,
+				199A3746297EE5B0002295F5 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				1908DDD6296F2BFB00B47D27 /* SwiftUIDemoMapAppApp.swift in Sources */,
 				1995EAB8296F3999000D5E2C /* LocationsView.swift in Sources */,
 				1908DDEB296F2E5A00B47D27 /* Location.swift in Sources */,
+				199A3747297EE5B0002295F5 /* LocationDetailView.swift in Sources */,
 				1908DDE9296F2E4D00B47D27 /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
