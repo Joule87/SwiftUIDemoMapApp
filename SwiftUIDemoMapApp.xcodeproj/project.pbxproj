@@ -19,6 +19,7 @@
 		198F7424297AE7500058471E /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F7423297AE7500058471E /* LocationPreviewView.swift */; };
 		1995EAB8296F3999000D5E2C /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995EAB7296F3999000D5E2C /* LocationsView.swift */; };
 		199A3747297EE5B0002295F5 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A3746297EE5B0002295F5 /* LocationDetailView.swift */; };
+		19EB5DB6297F3140002B08BD /* DeviceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB5DB5297F3140002B08BD /* DeviceConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		198F7423297AE7500058471E /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		1995EAB7296F3999000D5E2C /* LocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		199A3746297EE5B0002295F5 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		19EB5DB5297F3140002B08BD /* DeviceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConstant.swift; sourceTree = "<group>"; };
+		19EB5DB7297F34EF002B08BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		1908DDD4296F2BFB00B47D27 /* SwiftUIDemoMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				19EB5DB7297F34EF002B08BD /* Info.plist */,
+				19EB5DB4297F3127002B08BD /* Util */,
 				1908DDEC296F2F4B00B47D27 /* DataServices */,
 				1995EAB5296F3927000D5E2C /* Views */,
 				1995EAB6296F393F000D5E2C /* ViewModels */,
@@ -121,6 +126,14 @@
 				19864ECE2970DC2A005368E8 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		19EB5DB4297F3127002B08BD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				19EB5DB5297F3140002B08BD /* DeviceConstant.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1908DDD8296F2BFB00B47D27 /* ContentView.swift in Sources */,
+				19EB5DB6297F3140002B08BD /* DeviceConstant.swift in Sources */,
 				1928D116297B89D90050EAF0 /* LocationMapAnnotationView.swift in Sources */,
 				1917F20A29785BC100159686 /* LocationsListView.swift in Sources */,
 				198F7424297AE7500058471E /* LocationPreviewView.swift in Sources */,
@@ -333,11 +347,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemoMapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemoMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,11 +376,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemoMapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemoMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
