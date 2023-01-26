@@ -1,6 +1,3 @@
 # SwiftUIDemoMapApp
 
-##  https://github.com/Joule87/Media/blob/master/SwiftUIDemoMapApp/SwiftUIDemoMapApp.gif
-##  =428x884
-
-![alt text](https://github.com/Joule87/Media/blob/master/SwiftUIDemoMapApp/SwiftUIDemoMapApp.gif)
+<img src="https://github.com/Joule87/Media/blob/master/SwiftUIDemoMapApp/SwiftUIDemoMapApp.gif" width=30% height=30%>
